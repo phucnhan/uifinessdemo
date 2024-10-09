@@ -1,0 +1,18 @@
+{
+  "name": "everkinetic-web",
+  "version": "1.0.0",
+  "description": "poc",
+  "scripts": {
+    "start": "http-server -o",
+    "update": "npm run update:data && npm run update:svg",
+    "update:data": "copyfiles -f node_modules/everkinetic-data/dist/exercises.json dist/data/",
+    "update:svg": "copyfiles -f node_modules/everkinetic-data/dist/svg/* dist/data/svg/"
+  },
+  "devDependencies": {
+    "everkinetic-data": "https://github.com/everkinetic/data#develop",
+    "copyfiles": "1.2.0"
+  },
+  "private": true,
+  "author": "Frank Paczynski <frank@solygen.de> (https://github.com/solygen)",
+  "license": "Unlicense"
+}
