@@ -180,13 +180,13 @@ dialog {
 }
 
 .mdl-card__square .mdl-card__supporting-text {
-  //padding: 8px 2px;
+  padding: 8px 2px;
 }
 
 .mdl-card__supporting-text .grid {
     display: flex;
     justify-content: flex-end;
-    //padding: 4px 0;
+    padding: 4px 0;
 }
 
 .mdl-card__supporting-text .grid__centered {
